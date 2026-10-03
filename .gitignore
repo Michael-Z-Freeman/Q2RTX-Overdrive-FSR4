@@ -41,6 +41,9 @@ _original_backup/
 DLSSTemp/
 setup/
 rerelease/
+!rerelease/
+rerelease/*
+!rerelease/*.cfg
 rogue/
 xatrix/
 !baseq2/
