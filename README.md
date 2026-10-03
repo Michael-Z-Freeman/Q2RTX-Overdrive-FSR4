@@ -158,8 +158,8 @@ Only custom mod files, modified binaries, configuration files, and scripts are t
 | `Launch_Quake2_Remaster_RTX.bat` | One-click launcher for 2023 Remaster campaign |
 | `baseq2/q2config.cfg` | Player configuration (`seta pt_dlss "2"`, binds) |
 | `baseq2/pt_toggles.cfg` | Path-tracing toggle binds |
-| `baseq2/q2rtx.cfg` | Default engine cvar bindings |
-| `README_SETUP.md` | Complete setup & troubleshooting documentation |
+| `README.md` | Main setup, FSR 4 integration, and troubleshooting guide |
+| `README_UPSTREAM.md` | Original upstream Quake II RTX Overdrive documentation |
 | `.gitignore` | Whitelist rule set preserving mod files and ignoring assets & stock DLLs |
 
 *(Note: Standard upstream OptiScaler companion libraries like `amd_fidelityfx_*.dll`, `libxess.dll`, `fakenvapi.dll`, etc. are ignored by Git and supplied directly via the OptiScaler v0.9.4 release package as documented in Step 4).*

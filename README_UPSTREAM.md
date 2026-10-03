@@ -1,6 +1,6 @@
 # Quake II RTX Overdrive
 
-> **AMD Radeon / RDNA 4 Setup**: For full instructions on running this build on AMD Radeon graphics cards with **OptiScaler v0.9.4** and **FSR 4**, see [**README_SETUP.md**](README_SETUP.md).
+> **AMD Radeon / RDNA 4 Setup**: For full instructions on running this build on AMD Radeon graphics cards with **OptiScaler v0.9.4** and **FSR 4**, see [**README.md**](README.md).
 
 [![Build Status](https://github.com/mstewart248/Q2RTX-MOD/actions/workflows/build.yml/badge.svg)](https://github.com/mstewart248/Q2RTX-MOD/actions/workflows/build.yml)
 
