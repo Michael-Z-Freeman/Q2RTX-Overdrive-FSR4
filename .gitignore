@@ -1,0 +1,48 @@
+# =======================================================================
+# Quake II RTX + OptiScaler Git Ignore
+# Whitelist-based configuration to track only mods, scripts, and configs.
+# =======================================================================
+
+# 1. Ignore everything by default
+*
+
+# 2. Allow Git configuration and documentation
+!.gitignore
+!*.md
+
+# 3. Whitelist custom scripts & launchers
+!*.bat
+!*.ps1
+!*.py
+
+# 4. Whitelist configs
+!OptiScaler.ini
+!fakenvapi.ini
+!baseq2/q2config.cfg
+
+# 5. Whitelist custom proxy DLLs and executables
+!winmm.dll
+!winmm.dll.orig
+!q2rtx.exe
+!q2rtxded.exe
+!q2rtxded-x86.exe
+
+# 6. Specifically ignore heavy game assets, dumps, and logs
+*.pak
+*.kpf
+*.pdb
+*.log
+*.txt
+*.sav
+*.sv2
+*.ssv
+*.bak
+_original_backup/
+DLSSTemp/
+setup/
+rerelease/
+rogue/
+xatrix/
+!baseq2/
+baseq2/*
+!baseq2/*.cfg
